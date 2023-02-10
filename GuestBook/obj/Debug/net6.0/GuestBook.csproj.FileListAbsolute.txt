@@ -1,0 +1,15 @@
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\bin\Debug\net6.0\GuestBook.exe
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\bin\Debug\net6.0\GuestBook.deps.json
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\bin\Debug\net6.0\GuestBook.runtimeconfig.json
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\bin\Debug\net6.0\GuestBook.dll
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\bin\Debug\net6.0\GuestBook.pdb
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\obj\Debug\net6.0\GuestBook.csproj.AssemblyReference.cache
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\obj\Debug\net6.0\GuestBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\obj\Debug\net6.0\GuestBook.AssemblyInfoInputs.cache
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\obj\Debug\net6.0\GuestBook.AssemblyInfo.cs
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\obj\Debug\net6.0\GuestBook.csproj.CoreCompileInputs.cache
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\obj\Debug\net6.0\GuestBook.dll
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\obj\Debug\net6.0\refint\GuestBook.dll
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\obj\Debug\net6.0\GuestBook.pdb
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\obj\Debug\net6.0\GuestBook.genruntimeconfig.cache
+C:\Users\dchuv\OneDrive\Desktop\repos\GuestBookApp\GuestBook\obj\Debug\net6.0\ref\GuestBook.dll
