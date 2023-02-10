@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GuestBook
 {
-    internal class ConsoleMessages
+    public static class ConsoleMessages
     {
         public static (string name, int partyAmount) GetUserInfo()
         {
@@ -16,8 +16,8 @@ namespace GuestBook
 
             Console.Write("Please enter a name for your party: ");
             name = Console.ReadLine();
-            Console.Write("Please enter the number in of people in your party: ");
 
+            Console.Write("Please enter the number in of people in your party: ");
             isInt = int.TryParse(Console.ReadLine(), out partyAmount);
 
             while (!isInt)
@@ -32,7 +32,7 @@ namespace GuestBook
 
         }
 
-        public static (List<string> partyNames, List<int> partyGuestAmount) LoopGetUserInfo()
+        public static (List<string> partyNames, List<int> partyGuestAmount) LoopAndAddToList()
         {
             string continueAnswer = string.Empty;                
             List<string> partyNames = new List<string>();
@@ -45,15 +45,15 @@ namespace GuestBook
                 partyNames.Add(Party.name);
                 partyGuestAmount.Add(Party.partyAmount);
 
-                Console.WriteLine("Enter another family? (yes/no)");
+                Console.Write("Enter another family? (yes/no): ");
                 continueAnswer = Console.ReadLine().ToLower();
 
-                do
+                while (continueAnswer != "yes" && continueAnswer != "no")
                 {
                     Console.Write("invalid input, try again... ");
                     continueAnswer = Console.ReadLine().ToLower();
                 }
-                while (continueAnswer != "yes" && continueAnswer != "no");
+                Console.WriteLine();
 
             } while (continueAnswer == "yes");
             return (partyNames, partyGuestAmount);
@@ -63,7 +63,7 @@ namespace GuestBook
             Console.WriteLine("The guest's include...");
             foreach (string partyName in partyNames)
             {
-                Console.WriteLine($"{partyName}'s Party");
+                Console.WriteLine($" -{partyName}'s Party");
             }
 
 
